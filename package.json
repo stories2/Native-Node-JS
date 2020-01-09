@@ -4,7 +4,11 @@
   "description": "Create node module using c++",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    
+    "build": "node-gyp build",
+    "install": "node-gyp rebuild",
+    "start": "node ./app.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +21,7 @@
   },
   "homepage": "https://github.com/stories2/Native-Node-JS#readme",
   "dependencies": {
-    "bindings": "^1.5.0"
+    "bindings": "^1.5.0",
+    "nan": "^2.14.0"
   }
 }
