@@ -30,6 +30,15 @@
     "sources": [
       "object_factory.cc"
     ]
+   },
+   {
+     "target_name": "function_factory",
+      "include_dirs" : [
+        "<!(node -e \"require('nan')\")"
+    ],
+    "sources": [
+      "function_factory.cc"
+    ]
    }
   ]
 }
