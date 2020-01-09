@@ -21,6 +21,15 @@
     "sources": [
       "callback.cc"
     ]
+   },
+   {
+     "target_name": "object_factory",
+      "include_dirs" : [
+        "<!(node -e \"require('nan')\")"
+    ],
+    "sources": [
+      "object_factory.cc"
+    ]
    }
   ]
 }
