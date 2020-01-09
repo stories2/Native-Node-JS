@@ -1,5 +1,7 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2015
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "callback", "callback.vcxproj", "{98E6337C-50BF-91D0-AE44-2146AE8642B0}"
+EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "function_arg", "function_arg.vcxproj", "{6A108E56-0D8C-127E-F887-372505FB599E}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "helloworld", "helloworld.vcxproj", "{D70C79F2-535B-C1E3-AEA4-5487B785BC41}"
@@ -14,6 +16,10 @@ Global
 		{6A108E56-0D8C-127E-F887-372505FB599E}.Debug|x64.Build.0 = Debug|x64
 		{6A108E56-0D8C-127E-F887-372505FB599E}.Release|x64.ActiveCfg = Release|x64
 		{6A108E56-0D8C-127E-F887-372505FB599E}.Release|x64.Build.0 = Release|x64
+		{98E6337C-50BF-91D0-AE44-2146AE8642B0}.Debug|x64.ActiveCfg = Debug|x64
+		{98E6337C-50BF-91D0-AE44-2146AE8642B0}.Debug|x64.Build.0 = Debug|x64
+		{98E6337C-50BF-91D0-AE44-2146AE8642B0}.Release|x64.ActiveCfg = Release|x64
+		{98E6337C-50BF-91D0-AE44-2146AE8642B0}.Release|x64.Build.0 = Release|x64
 		{D70C79F2-535B-C1E3-AEA4-5487B785BC41}.Debug|x64.ActiveCfg = Debug|x64
 		{D70C79F2-535B-C1E3-AEA4-5487B785BC41}.Debug|x64.Build.0 = Debug|x64
 		{D70C79F2-535B-C1E3-AEA4-5487B785BC41}.Release|x64.ActiveCfg = Release|x64

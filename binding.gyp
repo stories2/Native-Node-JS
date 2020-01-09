@@ -12,6 +12,15 @@
     "sources": [
       "function_arg.cc"
     ]
+   },
+   {
+     "target_name": "callback",
+      "include_dirs" : [
+        "<!(node -e \"require('nan')\")"
+    ],
+    "sources": [
+      "callback.cc"
+    ]
    }
   ]
 }
