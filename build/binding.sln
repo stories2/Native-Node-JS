@@ -10,6 +10,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "helloworld", "helloworld.vc
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "object_factory", "object_factory.vcxproj", "{2FBB21C5-6E72-3CBF-8943-485E24DC1D09}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "object_wrap", "object_wrap.vcxproj", "{ABB0D470-16D6-71D8-35A3-1202D2A4E2F0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -32,6 +34,10 @@ Global
 		{98E6337C-50BF-91D0-AE44-2146AE8642B0}.Debug|x64.Build.0 = Debug|x64
 		{98E6337C-50BF-91D0-AE44-2146AE8642B0}.Release|x64.ActiveCfg = Release|x64
 		{98E6337C-50BF-91D0-AE44-2146AE8642B0}.Release|x64.Build.0 = Release|x64
+		{ABB0D470-16D6-71D8-35A3-1202D2A4E2F0}.Debug|x64.ActiveCfg = Debug|x64
+		{ABB0D470-16D6-71D8-35A3-1202D2A4E2F0}.Debug|x64.Build.0 = Debug|x64
+		{ABB0D470-16D6-71D8-35A3-1202D2A4E2F0}.Release|x64.ActiveCfg = Release|x64
+		{ABB0D470-16D6-71D8-35A3-1202D2A4E2F0}.Release|x64.Build.0 = Release|x64
 		{D70C79F2-535B-C1E3-AEA4-5487B785BC41}.Debug|x64.ActiveCfg = Debug|x64
 		{D70C79F2-535B-C1E3-AEA4-5487B785BC41}.Debug|x64.Build.0 = Debug|x64
 		{D70C79F2-535B-C1E3-AEA4-5487B785BC41}.Release|x64.ActiveCfg = Release|x64

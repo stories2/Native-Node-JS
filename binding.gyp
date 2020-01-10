@@ -39,6 +39,16 @@
     "sources": [
       "function_factory.cc"
     ]
+   },
+   {
+     "target_name": "object_wrap",
+      "include_dirs" : [
+        "<!(node -e \"require('nan')\")"
+    ],
+    "sources": [
+      "object_wrap_main.cc",
+      "object_wrap.cc"
+    ]
    }
   ]
 }
